@@ -3,7 +3,7 @@
 </p>
 
 <div align="center">
-<h3> IPFS powers the distributed web </h3>
+<h3> IPFS обеспечивает существование распределённой сети </h3>
 <br>
 
 [![Made by icon.](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)
@@ -13,16 +13,16 @@
 </div>
 
 <!-- TOC -->
-- [Project set up](#project-set-up)
-  - [Run locally](#run-locally)
-  - [Troubleshooting](#troubleshooting)
+- [Настройка проекта](#настройка-проекта)
+  - [Локальный запуск](#локальный-запуск)
+  - [Решение проблем](#решение-проблем)
     - [Digital envelope routines initialization error](#digital-envelope-routines-initialization-error)
-- [Contribute to documentation](#contribute-to-documentation)
-  - [Issues](#issues)
-  - [Bounties](#bounties)
-  - [Suggestions](#suggestions)
+- [Внести правки в документацию](#contribute-to-documentation)
+  - [Проблемы](#issues)
+  - [Баунти](#bounties)
+  - [Предложения](#suggestions)
   - [Pull requests welcome](#pull-requests-welcome)
-- [Style and configuration guide](#style-and-configuration-guide)
+- [Руководство по стилю и настройке](#style-and-configuration-guide)
   - [Static-site generator](#static-site-generator)
   - [Automated deployments](#automated-deployments)
   - [Translation](#translation)
