@@ -17,7 +17,7 @@
   - [Локальный запуск](#локальный-запуск)
   - [Решение проблем](#решение-проблем)
     - [Digital envelope routines initialization error](#digital-envelope-routines-initialization-error)
-- [Внести правки в документацию](#contribute-to-documentation)
+- [Внесение правок в документацию](#contribute-to-documentation)
   - [Проблемы](#issues)
   - [Баунти](#bounties)
   - [Предложения](#suggestions)
