@@ -31,47 +31,46 @@
 <!-- /TOC -->
 
 ---
+Добро пожаловать в официальную документацию IPFS. Межпланетная файловая система (IPFS) представляет собой распределенную одноранговую сеть для хранения и доступа к файлам, веб-сайтам, приложениям и данным. Protocol Labs является основным владельцем документации по IPFS и будет проверять все запросы и pull requests, созданные в этом репозитории.
 
-Welcome to the official IPFS documentation. The Interplanetary File System (IPFS) is a distributed, peer-to-peer network for storing and accessing files, websites, applications, and data. Protocol Labs is the primary maintainer of the IPFS documentation and will review all issues and pull requests created in this repository.
+**Если вы хотите просто изучить документацию по IPFS, рекомендуем перейти на [сайт документации](https://docs.ipfs.tech).**
 
-**If you'd just like to read the IPFS documentation, we recommend the [website version](https://docs.ipfs.tech).**
+## Настройка проекта
 
-## Project set up
+### Локальный запуск
 
-### Run locally
+Для локального запуска сайта выполните следующие действия.
 
-To build the site locally, follow the steps below.
-
-1. Clone this repository:
+1. Клонируйте этот репозиторий:
 
    ```bash
    git clone https://github.com/ipfs/ipfs-docs.git
    ```
 
-2. Move into the `ipfs-docs` folder and install the NPM dependencies:
+2. Перейдите в папку `ipfs-docs` и установите зависимости NPM:
 
    ```bash
    cd ipfs-docs
    npm install
    ```
 
-3. Boot up the application in _dev mode_:
+3. Загрузите приложение в режиме _dev mode_:
 
    ```bash
    npm start
    ```
 
-4. Open [localhost:8080](http://localhost:8080) in your browser.
-5. Close the local server with `CTRL` + `c`.
-6. To restart the local server, run `npm start` from within the `ipfs-docs` folder.
+4. Откройте в браузере [localhost:8080](http://localhost:8080).
+5. Закройте локальный сервер нажатием `CTRL` + `c`.
+6. Чтоб перезапустить локальный сервер, выполните `npm start` из папки `ipfs-docs`
 
-### Troubleshooting
+### Решение проблем
 
-If you're having trouble setting up the site locally, check this section for solutions to common issues.
+Если у вас возникли проблемы с настройкой локального сайта, изучите этот раздел с решениями распространенных проблем.
 
 #### Digital envelope routines initialization error
 
-The following error message may display when using Node.js version 18.0.0 when attempting to deploy this project for the first time:
+При первом развертывании этого проекта с использованием Node.js версии 18.0.0 может вылезти следующая ошибка:
 
    ```shell
    opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
@@ -80,22 +79,22 @@ The following error message may display when using Node.js version 18.0.0 when a
    code: 'ERR_OSSL_EVP_UNSUPPORTED'
    ```
 
-To solve this error, perform the following steps:
+Для исправления этой ошибки выполните следующие действия:
 
-1. Open a terminal.
-2. Navigate into the `ipfs-docs` folder:
+1. Откройте терминал.
+2. Перейдите в папку `ipfs-docs`:
 
    ```bash
    cd ipfs-docs
    ```
 
-3. Run the following command:
+3. Выполните вот такую команду:
 
    ```shell
     export NODE_OPTIONS=--openssl-legacy-provider
    ```
 
-4. Run `npm start`.
+4. Запустите `npm start`.
 
    ```bash
    npm start
