@@ -17,10 +17,10 @@
   - [Локальный запуск](#локальный-запуск)
   - [Решение проблем](#решение-проблем)
     - [Digital envelope routines initialization error](#digital-envelope-routines-initialization-error)
-- [Внесение правок в документацию](#contribute-to-documentation)
-  - [Проблемы](#issues)
-  - [Баунти](#bounties)
-  - [Предложения](#suggestions)
+- [Внесение правок в документацию](#внесение-правок-в-документацию)
+  - [Проблемы](#проблемы)
+  - [Баунти](#баунти)
+  - [Предложения](#предложения)
   - [Pull requests welcome](#pull-requests-welcome)
 - [Руководство по стилю и настройке](#style-and-configuration-guide)
   - [Static-site generator](#static-site-generator)
@@ -100,20 +100,21 @@
    npm start
    ```
 
-You can return to the [Project set-up](#project-set-up) section above and continue with the steps. You can also check [this issue in the Webpack GitHub repository](https://github.com/webpack/webpack/issues/14532) for more information about this error.
+Вы можете вернуться в раздел [Настройка проекта](#настройка-проекта) и выполнить другие действия. Либо в поисках дополнительной информации можете почитать про [эту ошибку в репозитории Webpack GitHub](https://github.com/webpack/webpack/issues/14532).
 
-## Contribute to documentation
+## Внесение правок в документацию
 
-We would **love ❤️ your help** to improve existing items or make new ones even better! [We also have bounties available](https://github.com/ipfs/devgrants/projects/1)!
+Мы будем **рады ❤️ вашей помощи** с улучшением существующих вещей и с созданием новых еще более крутых штук! [А ещё у нас баунти](https://github.com/ipfs/devgrants/projects/1)!
 
-### Issues
+### Проблемы
 
-If you find something wrong within this repository, please raise an issue [here →](https://github.com/ipfs/ipfs-docs/issues). Unless the issue is urgent, updates will be batch-merged into `main` on Tuesdays or Thursdays.
+Если вы обнаружили, что в этом репозитории что-то работает неправильно, то, пожалуйста, напишите [сюда →](https://github.com/ipfs/ipfs-docs/issues). Если исправление ошибки не является срочной необходимостью, то обновляющие объединения с `main` происходят по вторникам или четвергам.
 
-### Bounties
+### Баунти
 
-You can earn the undying love of the IPFS community, _and_ get rewarded by closing an issue containing the [`bounty` tag](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Abounty). Submissions must be production-ready and meet all the specifications listed on the issue page. To get started, check out the [current list of open bounties →](https://github.com/ipfs/devgrants/projects/1).
+Вы можете получить всеобщую вечную любовь сообщества IPFS _и_ вознаграждение, решая вопросы, задачи и проблемы, отмеченные тегом [`bounty`](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Abounty). Притом всё должно быть работоспособно и соответствовать всем требованиям, описанным на соответствующей странице этой задачи или вопроса. Перед началом работы изучите [список активных баунти](https://github.com/ipfs/devgrants/projects/1).
 
+Если вы пытаетесь решить вопрос, то отлично! Спасибо вам за помощь! Обязательно оставьте комментарий **перед** отправкой в pull request. Тогда вероятность того, что для решения одной задачи будет отправлено несколько pull request, будет минимальной. Если вы делаете pull request в задачу _не будучи_ предварительно назначенным в неё, 
 If you are attempting to close an issue, great! Thanks for the help! Please leave a comment within the issue requesting to be assigned to that issue **before** submitting a pull request. This minimizes the chance of multiple contributors duplicating work by submitting pull requests for the same issue. If you submit a pull request to an issue _without_ first being assigned to it, your pull request may not be accepted.
 
 ### Suggestions
