@@ -1,5 +1,5 @@
 <p align="center">
-<img align="center" src="ipfs-docs-header.png" width="1000">
+<img align="center" src="ipfs-docs-header-ru.png" width="1000">
 </p>
 
 <div align="center">
