@@ -21,9 +21,9 @@
   - [Проблемы](#проблемы)
   - [Баунти](#баунти)
   - [Предложения](#предложения)
-  - [Pull requests welcome](#pull-requests-welcome)
-- [Руководство по стилю и настройке](#style-and-configuration-guide)
-  - [Static-site generator](#static-site-generator)
+  - [Свободно отправляйте pull requests](#свободно-отправляйте-pull-requests)
+- [Руководства по стилям и настройкам](#руководства-по-стилям-и-настройкам)
+  - [Генератор статических сайтов](#генератор-статических-сайтов)
   - [Automated deployments](#automated-deployments)
   - [Translation](#translation)
 - [Core members](#core-members)
@@ -104,7 +104,7 @@
 
 ## Внесение правок в документацию
 
-Мы будем **рады ❤️ вашей помощи** с улучшением существующих вещей и с созданием новых еще более крутых штук! [А ещё у нас баунти](https://github.com/ipfs/devgrants/projects/1)!
+Мы будем **рады ❤️ вашей помощи** с улучшением существующих вещей и с созданием новых еще более крутых штук! [А ещё у нас бывают баунти](https://github.com/ipfs/devgrants/projects/1)!
 
 ### Проблемы
 
@@ -112,25 +112,25 @@
 
 ### Баунти
 
-Вы можете получить всеобщую вечную любовь сообщества IPFS _и_ вознаграждение, решая вопросы, задачи и проблемы, отмеченные тегом [`bounty`](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Abounty). Притом всё должно быть работоспособно и соответствовать всем требованиям, описанным на соответствующей странице этой задачи или вопроса. Перед началом работы изучите [список активных баунти](https://github.com/ipfs/devgrants/projects/1).
+Вы снискаете всеобщую вечную любовь сообщества IPFS _и_, возможно даже, материальное вознаграждение, решая вопросы, задачи и проблемы, отмеченные тегом [`bounty`](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Abounty). Притом всё должно быть работоспособно и соответствовать всем требованиям, описанным на соответствующей странице этой задачи или вопроса. Перед началом работы изучите [список активных баунти](https://github.com/ipfs/devgrants/projects/1).
 
-Если вы пытаетесь решить вопрос, то отлично! Спасибо вам за помощь! Обязательно оставьте комментарий **перед** отправкой в pull request. Тогда вероятность того, что для решения одной задачи будет отправлено несколько pull request, будет минимальной. Если вы делаете pull request в задачу _не будучи_ предварительно назначенным в неё, 
-If you are attempting to close an issue, great! Thanks for the help! Please leave a comment within the issue requesting to be assigned to that issue **before** submitting a pull request. This minimizes the chance of multiple contributors duplicating work by submitting pull requests for the same issue. If you submit a pull request to an issue _without_ first being assigned to it, your pull request may not be accepted.
+Если вы пытаетесь решить какой-то вопрос, то отлично! Спасибо вам за помощь! Обязательно оставьте комментарий **перед** отправкой в pull request. Тогда вероятность того, что для решения одной задачи будет отправлено несколько pull request, будет минимальной. Если вы делаете pull request в задачу _не будучи_ предварительно назначенным в неё, ваш запрос может быть отклонён.
 
-### Suggestions
+### Предложения
 
-Everyone has an opinion when it comes to documentation, and **that's a good thing**! Having folks from different backgrounds add to a discussion empowers everyone within that discussion, so if you've got something to add or would like to bring up a topic for discussion about the documentation, please do so! Create an issue using the [`kind/question` tag](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Akind%2Fquestion).
+Когда дело доходит до документации, у каждого появляется своё видение и мнение - и **это хорошо**! Участие людей из разных слоев общества и с разной компетенцией в обсуждении позволяет участникам шире взглянуть на многие вещи. Поэтому, если вам есть что добавить и о чём рассказать, или вы хотите в документации что-то обсудить, то добро пожаловать! Создайте тему, используя тег [`kind/question`](https://github.com/ipfs/ipfs-docs/issues?q=is%3Aopen+is%3Aissue+label%3Akind%2Fquestion).
 
-### Pull requests welcome
+### Свободно отправляйте pull requests
 
-Feel free to submit pull requests with any changes you'd like to see. If you're simply changing a typo or editing a styling bug, you can add `ciskip` to the title of your pull request to stop Filecorgi from running. Once merged, the website is updated automatically within 5-10 minutes.
+Если у вас есть какие-то дополнения, то свободно запрашивайте pull request. Если вы просто предлагаете исправление в слове или стилистическую правку, добавьте `ciskip` в заголовок вашего запроса, чтобы остановить Filecorgi. После объединения сайт автоматически обновится в течение 5-10 минут.
 
-## Style and configuration guide
+## Руководства по стилям и настройкам
 
-A writing style and template guide is in the process of being written that contributors can use as a guideline.
+Описания процесса создания стиля или шаблона также могут использоваться другими пользователями в качестве руководств.
 
-### Static-site generator
+### Генератор статических сайтов
 
+Сайт документации IPFS использует [генератор статических веб-сайтов Vue Press](https://vuepress.vuejs.org/)
 The IPFS documentation site uses the [VuePress static website generator](https://vuepress.vuejs.org/) to convert the Markdown guides into a documentation website. All the documentation is written in Markdown; follow the [VuePress Markdown documentation](https://vuepress.github.io/guide/markdown.html) for information on how to write markdown files for VuePress.
 
 ### Automated deployments
